@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container3{
+    /* border: 2px solid black; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f7f7f7;
+
+}
+
+.maincontainer{
+    /* border: 2px solid blue; */
+    width: 85%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#f7f7f7 ;
+    
+}
+
+.cards2{
+    /* border: 2px solid red; */
+    height: 450px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: #fff;
+}
+
+.title{
+    /* border: 2px solid blue; */
+    height:100px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+.img{
+    /* border: 2px solid red; */
+    height: 110px;
+}
+
+.content{
+    /* border: 2px solid red; */
+    height:150px ;
+}
+
+.title h1{
+    font-size: 30px;
+
+}
+
+.title p{
+    font-size:20px ;
+
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+.content p{
+    line-height: 35px;
+    font-size: 16px;
+}
+.list{
+    /* border: 2px solid red; */
+    height: 15%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    
+}
+.list i{
+    background-color: red;
+    height: 21%;
+   
+}
+
+.list p{
+    font-size: 18px;
+   
+}
+
+.top{
+    /* border: 2px solid red; */
+    height: 90px;
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+   border-bottom: 1px solid grey;
+
+
+}
+
+.mid{
+    /* border: 2px solid red; */
+    height: 90px;
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+   border-bottom: 1px solid grey;
+
+
+}
+
+.bottom{
+    /* border: 2px solid red; */
+    height: 100px;
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+
+}
+
+.photo{
+    /* border: 2px solid blue; */
+    height: 80px;
+    width: 30%;
+    /* display: flex; */
+    
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.para{
+    /* border: 2px solid green; */
+   width: 60%;
+   height:80px ;
+   gap: 20%;
+   font-family: 'Yanone Kaffeesatz';
+   color: #373f42;
+
+   /* display: flex;
+   justify-content:space-between; */
+   /* align-items: center; */
+    
+}
+
